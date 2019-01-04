@@ -27,10 +27,16 @@ body {
     margin-top: 19px;
 }
 .hi {
-    margin-left: 15px
+    margin-left: 15px;
+    margin-top: 35px;
 }
 .login{
     margin-left: auto;
+    border-radius:20px;
+    color:white;
+    padding:15px;
+    margin-top:25px;
+    background-color:rgb(255, 255, 255, 0.3);
 }
 ul li  {
     list-style-type: none;
@@ -47,6 +53,32 @@ a {
     margin-top: 70px;
     flex-wrap: nowrap;
 }
+.note1 {
+    width:100%;
+    font-size:4em;
+     color:white;
+}
+.input1 {
+    padding:20px;
+    width:380px;
+    border:3px solid #e69142;
+    font-size:1em;
+    text-align:center;
+    border-radius:50px;
+    margin-top:20px;
+    color:rgb(122, 122, 122);
+}
+.about {
+    margin-top:180px;
+    color:rgb(122, 122, 122);
+}
+.note2 {
+    font-size:1.5em;
+    font-weight:33px;
+    color:black;
+    width:80%;
+    line-height:1.8;
+}
 .imagecontainer {
     display: flex;
     flex-wrap: wrap;
@@ -59,10 +91,34 @@ a {
 }
 .normal {
     margin-top: 15px;
+    width: 330px;
+    height: 355px;
+    margin-left: 40px;
+    border-radius: 10px;
+    background-repeat: round;
+}
+.imagenote1 {
+    margin-top:280px;
+    position:absolute;
+    margin-left:50px;
+}
+.imagenote2 {
+    color:#e27e2c;
+    margin-top:310px;
+    margin-left:50px;
+    font-size:1.0em;
+}
+button {
+    padding:25px;
+    margin-top:110px;
+    width:15%;
+    border:3px solid #eb5757;
+    border-radius:50px;
+    background-color:white;
 }
 
 .thdb {
-    width: 100%;
+    width:100%;
     height: 460px;
     background: linear-gradient(#eb5757, #d59152);
     margin-top: 80px;
@@ -72,21 +128,37 @@ a {
     margin-left: 180px;
     color:white;
     margin-top: 200px;
-
+    font-size:4em;
+    position:absolute;
+}
+.aisha1 {
+    font-size:1.5em;
+    position:absolute;
+    margin-top:100px;
+    color:#febe61;
+    margin-left: 180px;
 }
 .clip-css {
     clip-path: polygon(28% 0%, 100% 0%, 100% 100%, 10% 100%);
-    margin-right: -40px;
 
   }
   .clip-block {
-      position: relative;
+    position: relative;
+  }
+  .clip-wrap{
+    width:74%; 
+    height:460px;
+    float:right;
+    margin:top;
+    background-repeat: round;
   }
   .footer {
+      width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     margin-top: 20px;
+    color:rgb(138, 138, 138);
 }
 .term {
     margin-left: auto;
